@@ -42,6 +42,9 @@ Thumbs.db
 *.temp
 *.log
 
+# Exclude specific projects
+CBX01_Digital_6M_SW_V.1.0/
+
 # Keep source files
 !**/Core/Src/**/*.c
 !**/Core/Src/**/*.h
