@@ -1,0 +1,52 @@
+﻿# STM32 Projects Workspace .gitignore
+
+# STM32CubeIDE generated files
+.metadata/
+.guards/
+.settings/
+*.project
+*.cproject
+*.mxproject
+
+# Build outputs
+**/Debug/
+**/Release/
+**/build/
+**/obj/
+**/*.o
+**/*.a
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.list
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Keep source files
+!**/Core/Src/**/*.c
+!**/Core/Src/**/*.h
+!**/Core/Inc/**/*.h
+!**/Startup/**/*.s
+!**/CMSIS/**/*.h
+!**/Drivers/**/*.c
+!**/Drivers/**/*.h
