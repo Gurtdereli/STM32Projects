@@ -1,87 +1,87 @@
 ﻿# STM32 Projects Collection
 
-Bu repository, STM32 mikrodenetleyici projelerinin kapsamlÄ± bir koleksiyonudur. TÃ¼m projeler tek bir repository altÄ±nda organize edilmiÅŸtir.
+Bu repository, STM32 mikrodenetleyici projelerinin kapsamlı bir koleksiyonudur. Tüm projeler tek bir repository altında organize edilmiştir.
 
-## ğŸ“ Proje Kategorileri
+## 📁 Proje Kategorileri
 
-### ğŸ”Œ GPIO ve Temel Projeler
+### 🔌 GPIO ve Temel Projeler
 - **Hello_World** - Temel GPIO projesi
-- **HW1** - Ã–dev 1 projesi
-- **HW2** - Ã–dev 2 projesi
-- **HW3** - Ã–dev 3 projesi
-- **HW4** - Ã–dev 4 projesi
-- **HW5** - Ã–dev 5 projesi
-- **HW6** - Ã–dev 6 projesi
-- **HW7** - Ã–dev 7 projesi
+- **HW1** - Ödev 1 projesi
+- **HW2** - Ödev 2 projesi
+- **HW3** - Ödev 3 projesi
+- **HW4** - Ödev 4 projesi
+- **HW5** - Ödev 5 projesi
+- **HW6** - Ödev 6 projesi
+- **HW7** - Ödev 7 projesi
 
-### â±ï¸ Timer ve Kesme Projeleri
+### ⏱️ Timer ve Kesme Projeleri
 - **SysTick_Timer** - SysTick timer projesi
 - **Timer_Interrupt** - Timer kesme projesi
-- **External_Interrupt** - DÄ±ÅŸ kesme projesi
-- **Input_Capture_Mode** - GiriÅŸ yakalama modu
+- **External_Interrupt** - Dış kesme projesi
+- **Input_Capture_Mode** - Giriş yakalama modu
 
-### ğŸ“Š ADC ve SensÃ¶r Projeleri
-- **ADC_Internal_Temp_Sens** - Dahili sÄ±caklÄ±k sensÃ¶rÃ¼
+### 📊 ADC ve Sensör Projeleri
+- **ADC_Internal_Temp_Sens** - Dahili sıcaklık sensörü
 - **ADC_Interrupt** - ADC kesme projesi
-- **ADC_LDR_Multi_Interrupt** - LDR Ã§oklu kesme projesi
+- **ADC_LDR_Multi_Interrupt** - LDR çoklu kesme projesi
 
-### ğŸ“¡ Ä°letiÅŸim Projeleri
-- **UART** - UART haberleÅŸme projesi
+### 📡 İletişim Projeleri
+- **UART** - UART haberleşme projesi
 - **UART_Interrupt** - UART kesme projesi
-- **SPI** - SPI haberleÅŸme projesi
+- **SPI** - SPI haberleşme projesi
 - **I2C_Oled_Screen** - I2C OLED ekran projesi
-- **I2C_Oled_Screen_with_ADXL345** - I2C OLED + ADXL345 sensÃ¶r projesi
-- **Bluetooth** - Bluetooth haberleÅŸme projesi
+- **I2C_Oled_Screen_with_ADXL345** - I2C OLED + ADXL345 sensör projesi
+- **Bluetooth** - Bluetooth haberleşme projesi
 
-### ğŸš€ RTOS Projeleri
-- **RTOS_Task_Create** - RTOS gÃ¶rev oluÅŸturma
+### 🚀 RTOS Projeleri
+- **RTOS_Task_Create** - RTOS görev oluşturma
 - **RTOS_ADC** - RTOS ADC projesi
 - **RTOS_printf** - RTOS printf projesi
 - **RTOS_UART** - RTOS UART projesi
 
-### âš¡ GeliÅŸmiÅŸ Projeler
+### ⚡ Gelişmiş Projeler
 - **DMA_Memory2Memory** - DMA bellek-bellek transferi
-- **DMA_PE2ME_AND_ME2PE** - DMA Ã§evresel-bellek transferi
+- **DMA_PE2ME_AND_ME2PE** - DMA çevresel-bellek transferi
 - **Flash_Write_Read** - Flash yazma/okuma projesi
-- **PWM** - PWM sinyal Ã¼retimi
-- **Power_Management** - GÃ¼Ã§ yÃ¶netimi
-- **IWDG** - BaÄŸÄ±msÄ±z watchdog timer
-- **Library_Development** - KÃ¼tÃ¼phane geliÅŸtirme
+- **PWM** - PWM sinyal üretimi
+- **Power_Management** - Güç yönetimi
+- **IWDG** - Bağımsız watchdog timer
+- **Library_Development** - Kütüphane geliştirme
 
-### ğŸ”§ Register Seviyesi Projeler
+### 🔧 Register Seviyesi Projeler
 - **Register_Level_Part1** - Register seviyesi programlama 1
 - **Register_Level_Part2** - Register seviyesi programlama 2
 
-### ğŸ¯ Ã–zel Projeler
+### 🎯 Özel Projeler
 - **CBX01_Digital_6M_SW_V.1.0** - CBX01 dijital projesi
 
-## ğŸ› ï¸ DonanÄ±m Gereksinimleri
+## 🛠️ Donanım Gereksinimleri
 
 - STM32F411RE (Nucleo-F411RE) veya uyumlu STM32 board
-- Gerekli sensÃ¶rler ve bileÅŸenler (proje detaylarÄ±na gÃ¶re deÄŸiÅŸir)
+- Gerekli sensörler ve bileşenler (proje detaylarına göre değişir)
 
-## ğŸ’» YazÄ±lÄ±m Gereksinimleri
+## 💻 Yazılım Gereksinimleri
 
 - STM32CubeIDE veya STM32CubeMX
-- STM32 HAL kÃ¼tÃ¼phaneleri
+- STM32 HAL kütüphaneleri
 - C/C++ derleyici
 
-## ğŸ“š Kurulum
+## 📚 Kurulum
 
-1. Bu repository'yi klonlayÄ±n
-2. Ä°stediÄŸiniz proje klasÃ¶rÃ¼ne gidin
-3. STM32CubeIDE ile aÃ§Ä±n
-4. Gerekli kÃ¼tÃ¼phaneleri ekleyin
-5. Projeyi derleyin ve yÃ¼kleyin
+1. Bu repository'yi klonlayın
+2. İstediğiniz proje klasörüne gidin
+3. STM32CubeIDE ile açın
+4. Gerekli kütüphaneleri ekleyin
+5. Projeyi derleyin ve yükleyin
 
-## ğŸ”— GitHub Profili
+## 🔗 GitHub Profili
 
-Bu projeler [https://github.com/Gurtdereli](https://github.com/Gurtdereli) adresinde bulunmaktadÄ±r.
+Bu projeler [https://github.com/Gurtdereli](https://github.com/Gurtdereli) adresinde bulunmaktadır.
 
-## ğŸ“„ Lisans
+## 📄 Lisans
 
-Bu projeler eÄŸitim amaÃ§lÄ± geliÅŸtirilmiÅŸtir.
+Bu projeler eğitim amaçlı geliştirilmiştir.
 
-## ğŸ“ Ä°letiÅŸim
+## 📞 İletişim
 
-SorularÄ±nÄ±z iÃ§in GitHub Issues kullanabilirsiniz.
+Sorularınız için GitHub Issues kullanabilirsiniz.
