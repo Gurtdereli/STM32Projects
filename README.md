@@ -21,27 +21,27 @@ Bu repository, STM32 mikrodenetleyici projelerinin kapsamlı bir koleksiyonudur.
 - **[Input_Capture_Mode](https://github.com/Gurtdereli/Input_Capture_Mode)** - Giriş yakalama modu
 
 ### 📊 ADC ve Sensör Projeleri
-- **[ADC_Internal_Temp_Sens](https://github.com/Gurtdereli/ADC_Internal_Temp_Sens)** - Dahili sıcaklık sensörü
-- **[ADC_Interrupt](https://github.com/Gurtdereli/ADC_Interrupt)** - ADC kesme projesi
-- **[ADC_LDR_Multi_Interrupt](https://github.com/Gurtdereli/ADC_LDR_Multi_Interrupt)** - LDR çoklu kesme projesi
+- **[ADC_Internal_Temp_Sens](https://github.com/Gurtdereli/adc-nternal-temp-sens)** - Dahili sıcaklık sensörü
+- **[ADC_Interrupt](https://github.com/Gurtdereli/adc-nterrupt)** - ADC kesme projesi
+- **[ADC_LDR_Multi_Interrupt](https://github.com/Gurtdereli/adc-ldr-multi-nterrupt)** - LDR çoklu kesme projesi
 
 ### 📡 İletişim Projeleri
 - **[UART](https://github.com/Gurtdereli/UART)** - UART haberleşme projesi
 - **[UART_Interrupt](https://github.com/Gurtdereli/UART_Interrupt)** - UART kesme projesi
 - **[SPI](https://github.com/Gurtdereli/SPI)** - SPI haberleşme projesi
-- **[I2C_Oled_Screen](https://github.com/Gurtdereli/I2C_Oled_Screen)** - I2C OLED ekran projesi
-- **[I2C_Oled_Screen_with_ADXL345](https://github.com/Gurtdereli/I2C_Oled_Screen_with_ADXL345)** - I2C OLED + ADXL345 sensör projesi
-- **[Bluetooth](https://github.com/Gurtdereli/Bluetooth)** - Bluetooth haberleşme projesi
+- **[I2C_Oled_Screen](https://github.com/Gurtdereli/2c-oled-screen)** - I2C OLED ekran projesi
+- **[I2C_Oled_Screen_with_ADXL345](https://github.com/Gurtdereli/2c-oled-screen-with-adxl345)** - I2C OLED + ADXL345 sensör projesi
+- **[Bluetooth](https://github.com/Gurtdereli/bluetooth)** - Bluetooth haberleşme projesi
 
 ### 🚀 RTOS Projeleri
-- **[RTOS_Task_Create](https://github.com/Gurtdereli/RTOS_Task_Create)** - RTOS görev oluşturma
+- **[RTOS_Task_Create](https://github.com/Gurtdereli/rtos-task-create)** - RTOS görev oluşturma
 - **[RTOS_ADC](https://github.com/Gurtdereli/RTOS_ADC)** - RTOS ADC projesi
 - **[RTOS_printf](https://github.com/Gurtdereli/RTOS_printf)** - RTOS printf projesi
 - **[RTOS_UART](https://github.com/Gurtdereli/RTOS_UART)** - RTOS UART projesi
 
 ### ⚡ Gelişmiş Projeler
-- **[DMA_Memory2Memory](https://github.com/Gurtdereli/DMA_Memory2Memory)** - DMA bellek-bellek transferi
-- **[DMA_PE2ME_AND_ME2PE](https://github.com/Gurtdereli/DMA_PE2ME_AND_ME2PE)** - DMA çevresel-bellek transferi
+- **[DMA_Memory2Memory](https://github.com/Gurtdereli/dma-memory2memory)** - DMA bellek-bellek transferi
+- **[DMA_PE2ME_AND_ME2PE](https://github.com/Gurtdereli/dma-pe2me-and-me2pe)** - DMA çevresel-bellek transferi
 - **[Flash_Write_Read](https://github.com/Gurtdereli/Flash_Write_Read)** - Flash yazma/okuma projesi
 - **[PWM](https://github.com/Gurtdereli/PWM)** - PWM sinyal üretimi
 - **[Power_Management](https://github.com/Gurtdereli/Power_Management)** - Güç yönetimi
