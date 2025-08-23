@@ -52,9 +52,6 @@ Bu repository, STM32 mikrodenetleyici projelerinin kapsamlı bir koleksiyonudur.
 - **[Register_Level_Part1](./Register_Level_Part1)** - Register seviyesi programlama 1
 - **[Register_Level_Part2](./Register_Level_Part2)** - Register seviyesi programlama 2
 
-### 🎯 Özel Projeler
-- **[CBX01_Digital_6M_SW_V.1.0](./CBX01_Digital_6M_SW_V.1.0)** - CBX01 dijital projesi
-
 ## 🛠️ Donanım Gereksinimleri
 
 - STM32F411RE (Nucleo-F411RE) veya uyumlu STM32 board
